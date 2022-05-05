@@ -5,7 +5,17 @@
     --background-color: #F5F4FA;
 
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .social {
     fill: rgba(255, 255, 255, 0.1);
 }
