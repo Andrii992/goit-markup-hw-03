@@ -23,21 +23,21 @@
       <div class="container-head">
         <a class="web-studio" href="./index.html"> <span class="web">Web</span>Studio </a>
         <nav>
-          <ul class="list">
-            <li>
+          <ul class="list list-navigation">
+            <li class="navigation-style">
               <a class="navigation inline" href="./index.html">Студия</a>
             </li>
-            <li>
+            <li class="navigation-style">
               <a class="navigation" href="./portfolio.html">Портфолио</a>
             </li>
-            <li>
+            <li class="navigation-style">
               <a class="navigation" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="list">
-          <li>
+        <ul class="list contact">
+          <li class="list-contact">
             <a class="navigation head-nav" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
@@ -55,58 +55,57 @@
           <button type="button" class="home-button">Заказать услугу</button>
         </div>
       </section>
-      <div class="container">
-        <section>
-          <h2 class="hide title">Наши выгоды</h2>
-          <ul class="list">
-            <li>
-              <h3 class="headlines-benefits">Внимание к деталям</h3>
-              <p class="paragraph-benefits">
-                Идейные соображения, а также начало повседневной работы по формированию позиции.
-              </p>
-            </li>
-            <li>
-              <h3 class="headlines-benefits">Пунктуальность</h3>
-              <p class="paragraph-benefits">
-                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-              </p>
-            </li>
-            <li>
-              <h3 class="headlines-benefits">Планирование</h3>
-              <p class="paragraph-benefits">
-                Равным образом консультация с широким активом в значительной степени обуславливает.
-              </p>
-            </li>
-            <li>
-              <h3 class="headlines-benefits">Современные технологии</h3>
-              <p class="paragraph-benefits">
-                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-              </p>
-            </li>
-          </ul>
-        </section>
-      </div>
-      <div class="container">
-        <section>
-          <h2 class="title">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
-              <img src="./images/img.jpg" alt="makes up a website" width="370" />
-            </li>
-            <li>
-              <img src="./images/img(1).jpg" alt="site design" width="370" />
-            </li>
-            <li>
-              <img src="./images/img(2).jpg" alt="graphic design" width="370" />
-            </li>
-          </ul>
-        </section>
-      </div>
-      <div class="container">
-        <section>
+
+      <section class="container">
+        <h2 class="hide title">Наши выгоды</h2>
+        <ul class="list benefits">
+          <li class="benefit">
+            <h3 class="headlines-benefits">Внимание к деталям</h3>
+            <p class="paragraph-benefits">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
+          </li>
+          <li class="benefit">
+            <h3 class="headlines-benefits">Пунктуальность</h3>
+            <p class="paragraph-benefits">
+              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+            </p>
+          </li>
+          <li class="benefit">
+            <h3 class="headlines-benefits">Планирование</h3>
+            <p class="paragraph-benefits">
+              Равным образом консультация с широким активом в значительной степени обуславливает.
+            </p>
+          </li>
+          <li class="benefit">
+            <h3 class="headlines-benefits">Современные технологии</h3>
+            <p class="paragraph-benefits">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container">
+        <h2 class="title">Чем мы занимаемся</h2>
+        <ul class="list works">
+          <li class="work">
+            <img src="./images/img.jpg" alt="makes up a website" width="370" />
+          </li>
+          <li class="work">
+            <img src="./images/img(1).jpg" alt="site design" width="370" />
+          </li>
+          <li class="work">
+            <img src="./images/img(2).jpg" alt="graphic design" width="370" />
+          </li>
+        </ul>
+      </section>
+
+      <section class="container-team">
+        <div class="container">
           <h2 class="title">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="list team">
+            <li class="team-member">
               <img
                 class="img-team"
                 src="./images/our-team/img(1).jpg"
@@ -116,7 +115,7 @@
               <h3 class="names">Игорь Демьяненко</h3>
               <p class="position" lang="en">Product Designer</p>
             </li>
-            <li>
+            <li class="team-member">
               <img
                 class="img-team"
                 src="./images/our-team/img(2).jpg"
@@ -126,7 +125,7 @@
               <h3 class="names">Ольга Репина</h3>
               <p class="position" lang="en">Frontend Developer</p>
             </li>
-            <li>
+            <li class="team-member">
               <img
                 class="img-team"
                 src="./images/our-team/img(3).jpg"
@@ -136,7 +135,7 @@
               <h3 class="names">Николай Тарасов</h3>
               <p class="position" lang="en">Marketing</p>
             </li>
-            <li>
+            <li class="team-member">
               <img
                 class="img-team"
                 src="./images/our-team/img(4).jpg"
@@ -147,21 +146,29 @@
               <p class="position" lang="en">UI Designer</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-      <a class="web-studio-footer" href="./index.html"> <span class="web">Web</span>Studio </a>
-      <address class="address">
-        <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="list">
-          <li>
-            <a class="navigation contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li><a class="navigation contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <a class="web-studio-footer" href="./index.html"> <span class="web">Web</span>Studio </a>
+        <address class="address">
+          <p class="text text-footer">г. Киев, пр-т Леси Украинки, 26</p>
+          <ul class="list">
+            <li>
+              <a class="navigation contacts text-footer" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="navigation contacts text-footer" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
