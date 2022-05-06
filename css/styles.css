@@ -120,6 +120,11 @@ img {
     background-color: var(--accent-color);
     color: #FFFFFF;
     cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button {
+    border-color: transparent;
+    border-radius: 4px;
 }
 .headlines {
     font-weight: 700;
@@ -184,6 +189,7 @@ img {
 .hero {
     text-align: center;
     height: 600px;
+    margin-bottom: 94px;
 }
 .title {
     font-weight: 700;
@@ -205,6 +211,7 @@ img {
 .position {
     line-height: 1.18;
     letter-spacing: 0.03em;
+    padding-bottom: 30px;
 }
 /* ДЗ 3 */
 .container-head {
@@ -212,7 +219,8 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /*outline: 2px solid tomato;*/
+    border-bottom: 1px solid #ECECEC;
+   /* outline: 2px solid tomato;*/
 }
 .container {
     width: 1200px;
@@ -299,4 +307,54 @@ img {
 }
 .address {
     padding-bottom: 60px;
+}
+
+/*Portfolio*/
+
+.portfolio .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio .button {
+    margin-right: 8px;
+}
+.portfolio {
+    margin-top: 100px;
+}
+
+.projects .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.projects .project {
+    background-color: #ffffff;
+    border: 1px solid #EEEEEE;
+}
+.projects .project:nth-child(-n+6) {
+    margin-bottom: 30px;
+}
+.projects .project:hover,
+.projects .project:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+.project-img {
+    margin-bottom: 20px;
+}
+.project .headlines {
+    margin-bottom: 4px;
+}
+.paragraph {
+    margin-right: 24px;
+    margin-bottom: 20px;
+    margin-left: 24px;
+}
+.headlines {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+.portfolio .container-portfolio {
+    margin-bottom: 50px;
 }
