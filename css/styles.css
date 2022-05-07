@@ -234,10 +234,12 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+   /* outline: 2px solid tomato;*/
+}
+.head {
     border-bottom: 1px solid #ECECEC;
     padding-top: 24px;
     padding-bottom: 25px;
-   /* outline: 2px solid tomato;*/
 }
 .section {
     padding-top: 94px;
@@ -266,12 +268,10 @@ img {
 .list-navigation {
     display: flex;
 }
-.navigation-style {
+.navigation-style:not(:last-child) {
     margin-right: 50px;
 }
-.navigation-style:last-child{
-    margin-right: 0;
-}
+
 .list-contact {
     margin-right: 30px;
 }
@@ -323,7 +323,7 @@ img {
     margin-bottom: 0;
 }
 
-.text-footer {
+.text-footer:not(:last-child) {
     margin-bottom: 9px;
 }
 .address {
@@ -355,7 +355,6 @@ img {
 }
 .projects .project {
     background-color: #ffffff;
-    border: 1px solid #EEEEEE;
 }
 .projects .project:nth-child(-n+6) {
     margin-bottom: 30px;
@@ -375,7 +374,6 @@ img {
     padding-right: 20px;
     padding-bottom: 24px;
     padding-left: 20px ;
-    border-right,
-    border-bottom, 
-    border-left: 1px solid #EEEEEE;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
