@@ -25,6 +25,8 @@ img {
 }
 .footer {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .list {
     list-style: none;
@@ -38,8 +40,6 @@ img {
     color: #000000;
     text-decoration: none;
     margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
     }
 .web-studio-footer{
     font-family: Raleway;
@@ -51,7 +51,6 @@ img {
     text-decoration: none;
     margin-bottom: 20px;
     display: inline-block;
-    padding-top: 60px;
     }
 .web {
     color: var(--accent-color);
@@ -72,6 +71,7 @@ img {
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
+    display: inline-block;
     }
 .head-nav {
     color: var(--primary-text-color);
@@ -197,12 +197,11 @@ img {
     width: 696px;
     display: inline-block;
     margin-bottom: 30px;
-    padding-top: 200px;
 }
 .hero {
     text-align: center;
-    height: 600px;
-    margin-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .title {
     font-weight: 700;
@@ -221,10 +220,13 @@ img {
     color: #212121;
     margin-bottom: 10px;
 }
+.names-position {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .position {
     line-height: 1.18;
     letter-spacing: 0.03em;
-    padding-bottom: 30px;
 }
 /* ДЗ 3 */
 .container-head {
@@ -233,7 +235,16 @@ img {
     padding-right: 15px;
     margin: 0 auto;
     border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
    /* outline: 2px solid tomato;*/
+}
+.section {
+    padding-top: 94px;
+}
+.section-works {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .container {
     width: 1200px;
@@ -241,10 +252,8 @@ img {
     padding-right: 15px;
     margin: 0 auto;
     /*outline: 2px solid tomato;*/
-    margin-bottom: 94px;
 }
 .img-team {
-    margin-bottom: 30px;
 }
 .container-head {
     display: flex;
@@ -316,27 +325,30 @@ img {
 
 .text-footer {
     margin-bottom: 9px;
-    display: inline-block;
 }
 .address {
-    padding-bottom: 60px;
 }
 
-/*Portfolio*/
-/*Portfolio*/
+/* Portfolio */
+/* Portfolio */
 .portfolio .menu {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
-.portfolio .button {
+.button-menu {
     margin-right: 8px;
 }
+.menu .button-menu:last-child {
+    margin-right: 0;
+}
 .portfolio {
-    margin-top: 100px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
-.projects .list {
+.projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -353,21 +365,17 @@ img {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
 }
-.project-img {
-    margin-bottom: 20px;
-}
+
 .project .headlines {
     margin-bottom: 4px;
 }
-.paragraph {
-    margin-right: 24px;
-    margin-bottom: 20px;
-    margin-left: 24px;
-}
-.headlines {
-    margin-right: 24px;
-    margin-left: 24px;
-}
-.portfolio .container-portfolio {
-    margin-bottom: 50px;
+
+.paragraph-headlines {
+    padding-top: 24px;
+    padding-right: 20px;
+    padding-bottom: 24px;
+    padding-left: 20px ;
+    border-right,
+    border-bottom, 
+    border-left: 1px solid #EEEEEE;
 }
